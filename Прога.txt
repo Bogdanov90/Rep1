@@ -1,3 +1,4 @@
+Создание базы данных и заполнение таблицы
 CREATE DATABASE IF NOT EXISTS lab1;
 USE lab1; 
 CREATE TABLE readers
