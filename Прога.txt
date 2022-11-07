@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS lab1;
+USE lab1; 
+CREATE TABLE readers
+(kod_readers integer auto_increment primary key,
+surname_readers varchar(25),
+name_readers varchar(25),
+number_readers varchar(25));
+INSERT INTO readers (surname_readers, name_readers, number_readers)
+values ('Shakhtov', 'Nikolay', 89525412376),
+('Zmeev', 'Vasiliy', 89509876534),
+('Vodov', 'Aleksey', 84815162342),
+('Peshcherov', 'Stas', 88127652345),
+('Ruinov', 'Pavel', 88126001023);
+SELECT * FROM readers;
